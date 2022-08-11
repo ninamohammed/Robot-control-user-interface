@@ -1,7 +1,7 @@
 # Robot-control-user-interface
 ### Project Description :
 
-Building an HTM page that contains a user interface that displays five buttons to control the robot's movement (button movements (right - left - up - down - stop)) and building a php page to store and read data from the databases. Each button has an abbreviation of the first letter of its name, such as the Right button. The letter R is kept in the Right_R column in the database.
+Building an HTM page that contains a user interface that displays five buttons to control the robot's movement (button movements (right - left - Forward - Backwards - stop)) and building a php page to store and read data from the databases. Each button has an abbreviation of the first letter of its name, such as the Right button. The letter R is kept in the Right_R column in the database.
 
 ### Project build by :
 
