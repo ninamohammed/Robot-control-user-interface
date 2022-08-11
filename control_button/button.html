@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Control Button</title>
+    <link rel="stylesheet" href="css/Style.css"/>
+  
+    
+</head>
+<style>
+
+#B{
+      border: 2px solid #FFBC00;
+      background-color:#010100;
+        position: relative;
+        top: 410px;
+        left: -479px;
+
+    }
+    #R{
+      border: 2px solid #FFBC00;
+      background-color:#010100;
+      position: relative;
+        top: 270px;
+        right: -280px;
+    }
+    #F{
+      border: 2px solid #FFBC00;
+      background-color:#010100;
+        position: relative;
+        top: 340px;
+        left: -140px;
+    }
+    #L{
+      border: 2px solid #FFBC00;
+      background-color:#010100;
+      position: relative;
+        top: 340px;
+        left: -60px;
+    }
+    #S{
+      border: 2px solid #010100;
+      background-color:#010100;
+        border-radius: 25px;
+        position: relative;
+        top: 340px;
+        left: -100px;
+    }
+    
+</style>
+<body>
+<form action="db.php" method="get" >
+
+  <input  type="submit" name="Right" id="R" value='Forward'/>
+
+  <input type="submit" name="Left" id="L" value='Left'/>
+
+  <input type="submit" name="Stop" id="S" value='Stop' />
+
+  <input type="submit" name="Forward" id="F" value='Right'/>
+
+  <input type="submit" name="Backward" id="B" value='Backwards'/>
+
+
+</form>
+</body>
+</html>
